@@ -1,0 +1,36 @@
+http_root_server_header:
+
+  MoxaHttp:
+    category: DigitalIO
+    manufacturer: Moxa
+
+  WISE-400/LAN:
+    category: DigitalIO
+    manufacturer: Advantech
+    device: WISE-4000/LAN
+
+http_onvif_server_header:
+
+  AvigilonOnvif: 
+    category: IPCamera
+    manufacturer: Avigilon
+    device: Avigilon IP camera
+
+snmp_sysobjectid:
+
+  .1.3.6.1.4.1.8691.2.7:
+    category: DigitalIO
+    manufacturer: Moxa
+    device: NPort 5210
+
+  .1.3.6.1.4.1.332.11.6:
+    category: DigitalDisplay
+    manufacturer: FLS Finland
+    device: Digital info display
+
+snmp_sysdescr:
+
+  NP5210:
+    category: DigitalIO
+    manufacturer: Moxa
+    device: NPort 5210
